@@ -1,0 +1,100 @@
+/* Importerer google font og bruger den samt laver padding */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.2em;
+}
+
+/* Det er den lysegrå baggrund, den ændrer font størrelse og sørger for at den sidder hvor den skal */
+.headertext{
+font-size: 0.9em;
+position: relative;
+left: 5%;
+top: 5%;
+padding-right: 10%;
+width: 90%;
+background-color: rgb(220, 230, 230);
+padding-bottom: 5%;
+}
+
+/* Gør at der ingen border er og at de sidder i midten */
+.card {
+border: none;
+align-content: center;
+}
+
+/* Sørger for at billedet sidder i midten */
+.main-img {
+align-content: center; 
+}
+
+/* Gør at billedet sidder i midten med whitespace rundt om  */
+.card-img-top {
+margin: auto;
+padding-right: 20%;
+padding-left: 20%;
+padding-top: 15%;
+padding-bottom: 5%;
+}
+
+/* Gør at teksten i kortet sidder i midten og har en font størrelse på 15px  */
+.card-text {
+justify-content: center;
+font-size: 15px;
+}
+/* btn-c og btn-t gør nærmest det samme, ændrer farven, border, højden og font, -t er brug i nav baren og -c i kortne */
+.btn-c {
+    background-color: #3A92D5;
+    color: #ffffff;
+    border-radius: 0.5em;
+    border: none;
+    height: auto;
+    font-size: 1.2em;
+}
+
+.btn-t {
+    background-color: #3A92D5;
+    color: #ffffff;
+    border-radius: 0.5em;
+    border: none;
+    height: auto;
+    font-size: 1.5em;  
+}
+/* btn-c og btn-t hover er også ens, men -t er nav baren og -c er i kortne */
+.btn-c:hover {
+    background-color: #1d85d4;
+    color: #ffffff;
+}
+.btn-t:hover {
+    background-color: #1d85d4;
+    color: #ffffff;
+}
+/* btn-p gør det samme som -c og -t, men det er knappen på billedet, det er flyttet ind på billedet ved hjælp af z-index og margins */
+.btn-p {
+    background-color: #3A92D5;
+    color: #ffffff;
+    border-radius: 0.5em;
+    border: none;
+    height: auto;
+    font-size: 1.5em;  
+    z-index: 4;
+    margin-top: -200px;
+    margin-left: 60%;
+}
+
+.btn-p:hover {
+    background-color: #1d85d4;
+    color: #ffffff;
+}
+
+/* Gør at google maps bliver responsive */
+.googemaps {
+    width: 100%;
+}
+
+/* Ændre størrelsen på billederne sådan de er ens og en lille margin */
+.pphotos {
+height: 400px;
+width: 320px;
+margin: 5px;
+}
